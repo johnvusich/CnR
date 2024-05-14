@@ -57,7 +57,7 @@ cd $HOME/cutandrun
 module load Nextflow/23.10.0
 
 nextflow pull nf-core/cutandrun
-nextflow run nf-core/cutandrun -r 3.14.0 --input ./samplesheet.csv  -profile singularity --outdir ./cutandrun_results --fasta ./Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz --gtf ./Homo_sapiens.GRCh38.108.gtf.gz -work-dir $SCRATCH/cutandrun_work -c ./nextflow.config
+nextflow run nf-core/cutandrun -r 3.2.2 --input ./samplesheet.csv  -profile singularity --outdir ./cutandrun_results --fasta ./Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz --gtf ./Homo_sapiens.GRCh38.108.gtf.gz -work-dir $SCRATCH/cutandrun_work -c ./nextflow.config
 ```
 Save the run_cutandrun.sb file and return to your CUT&amp;RUN directory.
 
