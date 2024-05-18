@@ -15,7 +15,7 @@ Login to your HPCC account using OnDemand. Navigate to your home directory by cl
 Create a directory for your analysis by clicking 'New Directory'. Name your directory (ex: cutandrun). Navigate to the newly created CUT&amp;RUN directory.
 
 ## Make a samplesheet table
-In your CUT&amp;RUN directory, click 'New File'. Name the file 'samplesheet.csv'. Click the `⋮` symbol and select edit. Create the samplesheet table, for example:
+In your CUT&amp;RUN directory, click 'New File'. Name the file 'samplesheet.csv'. Click the `⋮` symbol and select edit. Create the samplesheet table FOR YOUR DATA. Below is a template:
 ```
 group,replicate,fastq_1,fastq_2,control
 h3k27me3,1,h3k27me3_rep1_r1.fastq.gz,h3k27me3_rep1_r2.fastq.gz,igg_ctrl
@@ -23,6 +23,8 @@ h3k27me3,2,h3k27me3_rep2_r1.fastq.gz,h3k27me3_rep2_r2.fastq.gz,igg_ctrl
 igg_ctrl,1,igg_rep1_r1.fastq.gz,igg_rep1_r2.fastq.gz,
 igg_ctrl,2,igg_rep2_r1.fastq.gz,igg_rep2_r2.fastq.gz,
 ```
+Note: the samplesheet above is an example to show the required format. You will still need to make a samplesheet FOR YOUR DATA.
+
 Save the samplesheet.csv file and return to your CUT&amp;RUN directory.
 
 ## Make a Nextflow configuration file to use SLURM as the process executor
