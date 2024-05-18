@@ -14,6 +14,8 @@ Login to your HPCC account using OnDemand. Navigate to your home directory by cl
 
 Create a directory for your analysis by clicking 'New Directory'. Name your directory (ex: cutandrun). Navigate to the newly created CUT&amp;RUN directory.
 
+Make sure to upload your data (FASTQ files) into this directory.
+
 ## Make a samplesheet table
 In your CUT&amp;RUN directory, click 'New File'. Name the file 'samplesheet.csv'. Click the `⋮` symbol and select edit. Create the samplesheet table FOR YOUR DATA. Below is a template:
 ```
