@@ -27,6 +27,9 @@ Leyla Abbasova, Paulina Urbanaviciute, Di Hu, Joy N. Ismail, Brian M. Schilder, 
 ### Article benchmarking peak calling methods for CUT&RUN:
 Amin Nooranikhojasteh, Ghazaleh Tavallaee, & Elias Orouji. Benchmarking peak calling methods for CUT&RUN. _Bioinformatics_ (2025). https://doi.org/10.1093/bioinformatics/btaf375
 
+### Article benchmarking scCUT&Tag analysis pipelines:
+Félix Raimundo, Pacôme Prompsy, Jean-Philippe Vert, & Céline Vallot. A benchmark of computational pipelines for single-cell histone modification data. _Genome Biology_ (2023). https://doi.org/10.1186/s13059-023-02981-2
+
 ## Wet-lab Protocols
 
 ### CUT&RUN protocol
