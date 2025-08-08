@@ -38,7 +38,7 @@ https://dx.doi.org/10.17504/protocols.io.bcuhiwt6
 ### CUTAC for FFPEs protocol
 https://dx.doi.org/10.17504/protocols.io.14egn292zg5d/v4
 
-## Computational Analysis Protocols
+## Computational Analysis
 
 ### CUT&Tag data analysis tutorial
 https://dx.doi.org/10.17504/protocols.io.bjk2kkye
@@ -46,5 +46,23 @@ https://dx.doi.org/10.17504/protocols.io.bjk2kkye
 ### CUT&Tag data analysis for a time series
 https://www.protocols.io/view/cut-amp-tag-data-processing-and-analysis-tutorial-5jyl8py98g2w/v2
 
-### Fred Hutch [_Choosing Genomic Tools_](https://hutchdatascience.org/Choosing_Genomics_Tools/index.html) Book Chapter 19: CUT&RUN and CUT&Tag (Written by Ye Zheng)
+### Fred Hutch [_Choosing Genomic Tools_](https://hutchdatascience.org/Choosing_Genomics_Tools/index.html) Book 
+### Chapter 19: CUT&RUN and CUT&Tag (Written by Ye Zheng)
 https://hutchdatascience.org/Choosing_Genomics_Tools/cutrun-and-cuttag.html
+
+### Fred Hutch SEACR Peak Calling GitHub Repo:
+https://github.com/FredHutch/SEACR
+
+### Other computational tools for CUT&RUN, CUT&Tag, and CUTAC:
+- [nf-core/cutandrun](https://nf-co.re/cutandrun/3.2.2/)
+- [TrimGalore](https://github.com/FelixKrueger/TrimGalore)
+- [Bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+- [Samtools](https://www.htslib.org/)
+- [deepTools](https://deeptools.readthedocs.io/en/latest/)
+- [Picard](https://broadinstitute.github.io/picard/)
+- [bedtools](https://bedtools.readthedocs.io/en/latest/)
+- [UCSC bigWig track format utilities](https://genome.ucsc.edu/goldenpath/help/bigWig.html)
+- [IGV](https://igv.org/)
+- [MultiQC](https://github.com/MultiQC/MultiQC)
+
+Note: This is not meant to be an exhaustive list. However, it should include the most relavent articles and the common/effective tools used for analyzing and visualizing CUT&RUN and CUT&Tag data. If there are any glaring ommisions, please feel free to post an issue on this repo.
