@@ -1,7 +1,7 @@
 # CUT&RUN and CUT&Tag Articles and Analysis Methods
 This is a repo that contains relevant info regarding CUT&RUN and CUT&Tag computational analysis and interpretation, including protocols, pipelines, peak calling algorithms, benchmarking articles, and applications of these techniques.
 
-## Articles
+## CUT&RUN Articles
 
 ### CUT&RUN was first described in this article by Pete Skene and Steve Henikoff, published in eLife in 2017:
 Peter J Skene & Steven Henikoff. An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. _eLife_ (2017). https://doi.org/10.7554/eLife.21856
@@ -14,6 +14,8 @@ Peter J Skene, Jorja G Henikoff, & Steven Henikoff. Targeted in situ genome-wide
 
 ### Next came an improvement on the original protocol that expanded antibody compatibility by using pAG-MNase instead of pA-MNase, a salt ion modification to the digestion step, and normalization using the E. coli DNA that is carried over from purification of the MNase enzyme. This was described by Michael Meers et al. in eLife in 2019:
 Michael P Meers, Terri D Bryson, Jorja G Henikoff, & Steven Henikoff. Improved CUT&RUN chromatin profiling tools. _eLife_ (2019). https://doi.org/10.7554/eLife.46314
+
+## CUT&Tag Articles
 
 ### CUT&Tag was first described by Hatice Kaya-Okur in Nature Communications in 2019:
 Hatice S. Kaya-Okur, Steven J. Wu, Christine A. Codomo, et al. CUT&Tag for efficient epigenomic profiling of small samples and single cells. _Nat Comm_ (2019). https://doi.org/10.1038/s41467-019-09982-5
@@ -32,10 +34,30 @@ Michael P. Meers, et al., Steven Henikoff. Multifactorial profiling of epigeneti
 
 Derek H. Janssens, Jacob E. Greene, et al., Steven Henikoff. Scalable single-cell profiling of chromatin modifications with sciCUT&Tag. _Nature Protocols_ (2023). https://doi.org/10.1038/s41596-023-00905-9
 
-### Article comparing CUT&Tag peak calling with ENCODE ChIP-seq peaks for K562 cells:
+## Peak Calling and Benchmarking Articles
+
+### SEACR:
+Michael P. Meers, Dan Tenenbaum, & Steven Henikoff. Peak calling by Sparse Enrichment Analysis for CUT&RUN chromatin profiling. _Epigenetics & Chromatin_ (2019). https://doi.org/10.1186/s13072-019-0287-4
+
+### MACS, MACS2, and MACS3
+### The seminal MACS peak calling paper came out of Shirley Liu's lab in 2008 (cited over 16k times):
+Yong Zhang, et al. Model-based Analysis of ChIP-Seq (MACS). _Genome Biology_ (2008). https://doi.org/10.1186/gb-2008-9-9-r137
+### Additional MACS/MACS2/MACS3 papers and repos:
+Jianxing Feng, Tao Liu, Yong Zhang. Using MACS to Identify Peaks from ChIP-Seq Data. _Current Protocols in Bioinformatics_ (2011). https://doi.org/10.1002/0471250953.bi0214s34
+
+Jianxing Feng, Tao Liu, et al. Identifying ChIP-seq enrichment using MACS. _Nature Protocols_ (2012). https://doi.org/10.1038/nprot.2012.101
+
+Su Wang, et al. Target analysis by integration of transcriptome and ChIP-seq data with BETA. _Nature Protocols_ (2013). https://doi.org/10.1038/nprot.2013.150
+
+John M. Gaspar. Improved peak-calling with MACS2. _bioRxiv_ (2018). https://doi.org/10.1101/496521
+
+### GoPeaks:
+William M. Yashar, et al. GoPeaks: histone modification peak calling for CUT&Tag. _Genome Biology_ (2022). https://doi.org/10.1186/s13059-022-02707-w
+
+### Comparison of CUT&Tag peaks with ENCODE ChIP-seq peaks for K562 cells:
 Leyla Abbasova, Paulina Urbanaviciute, Di Hu, Joy N. Ismail, Brian M. Schilder, Alexi Nott, Nathan G. Skene, & Sarah J. Marzi. CUT&Tag recovers up to half of ENCODE ChIP-seq histone acetylation peaks. _Nature Communications_ (2025). https://doi.org/10.1038/s41467-025-58137-2
 
-### Article benchmarking peak calling methods for CUT&RUN:
+### Benchmarking peak calling methods for CUT&RUN:
 Amin Nooranikhojasteh, Ghazaleh Tavallaee, & Elias Orouji. Benchmarking peak calling methods for CUT&RUN. _Bioinformatics_ (2025). https://doi.org/10.1093/bioinformatics/btaf375
 
 ### Article benchmarking scCUT&Tag analysis pipelines:
@@ -66,6 +88,9 @@ https://hutchdatascience.org/Choosing_Genomics_Tools/cutrun-and-cuttag.html
 
 ### Fred Hutch SEACR Peak Calling GitHub Repo:
 https://github.com/FredHutch/SEACR
+
+### MACS3 Peak Calling Website:
+https://macs3-project.github.io/MACS/
 
 ### Other computational tools for CUT&RUN, CUT&Tag, and CUTAC:
 - [nf-core/cutandrun](https://nf-co.re/cutandrun/3.2.2/)
