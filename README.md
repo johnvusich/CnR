@@ -23,6 +23,15 @@ Hatice S. Kaya-Okur, Steven J. Wu, Christine A. Codomo, et al. CUT&Tag for effic
 ### A detailed protocol for CUT&Tag was published by Hatice Kaya-Okur in Nature Protocols in 2020:
 Hatice S. Kaya-Okur, Derek H. Janssens, Jorja G. Henikoff, Kami Ahmad, & Steven Henikoff. Efficient low-cost chromatin profiling with CUT&Tag. _Nature Protocols_ (2020). https://doi.org/10.1038/s41596-020-0373-x
 
+### autoCUT&Tag article:
+Derek H. Janssens, et al. Automated CUT&Tag profiling of chromatin heterogeneity in mixed-lineage leukemia. _Nature Genetics_ (2021). https://doi.org/10.1038/s41588-021-00941-9
+
+### CUT&TAG2for1 article:
+Derek H. Janssens, Dominik J. Otto, et al. CUT&Tag2for1: a modified method for simultaneous profiling of the accessible and silenced regulome in single cells. _Genome Biology_ (2022). https://doi.org/10.1186/s13059-022-02642-w
+
+### Mechanism of BAF nucleosome eviction with RNAPII (this paper uses CUT&Tag, CUTAC, CUT&RUN, & CUT&RUN.ChIP):
+Sandipan Brahma & Steven Henikoff. The BAF chromatin remodeler synergizes with RNA polymerase II and transcription factors to evict nucleosomes. _Nature Genetics_ (2023). https://doi.org/10.1038/s41588-023-01603-8
+
 ### Single-cell CUT&Tag articles:
 Marek Bartosovic, Mukund Kabbe, & Gonçalo Castelo-Branco. Single-cell CUT&Tag profiles histone modifications and transcription factors in complex tissues. _Nature Biotechnology_ (2021). https://doi.org/10.1038/s41587-021-00869-9
 
@@ -33,6 +42,20 @@ Chenxu Zhu, et al., Bing Ren. Joint profiling of histone modifications and trans
 Michael P. Meers, et al., Steven Henikoff. Multifactorial profiling of epigenetic landscapes at single-cell resolution using MulTI-Tag. _Nature Biotechnology_ (2022). https://doi.org/10.1038/s41587-022-01522-9
 
 Derek H. Janssens, Jacob E. Greene, et al., Steven Henikoff. Scalable single-cell profiling of chromatin modifications with sciCUT&Tag. _Nature Protocols_ (2023). https://doi.org/10.1038/s41596-023-00905-9
+
+## CUTAC Articles
+
+### Original CUTAC paper:
+Steven Henikoff, Jorja G Henikoff, Hatice S Kaya-Okur, & Kami Ahmad. Efficient chromatin accessibility mapping in situ by nucleosome-tethered tagmentation. _eLife_ (2020). https://doi.org/10.7554/eLife.63274
+
+### CUTAC Bio-protocol article:
+Steven Henikoff, Jorja G Henikoff, & Kami Ahmad. Simplified Epigenome Profiling Using Antibody-tethered Tagmentation. _Bio-protocol_ (2021). https://doi.org/10.21769/BioProtoc.4043
+
+### FFPE-CUTAC paper:
+Steven Henikoff, et al. Epigenomic analysis of formalin-fixed paraffin-embedded samples by CUT&Tag. _Nature Communications_ (2023). https://doi.org/10.1038/s41467-023-41666-z
+
+### RNA Pol II activity, hypertranscription, and biomarkers of human tumors using FFPE-CUTAC paper:
+Steven Henikoff, Ye Zheng, et al. RNA polymerase II at histone genes predicts outcome in human cancer. _Science_ (2025). https://doi.org/10.1126/science.ads2169
 
 ## Peak Calling and Benchmarking Articles
 
