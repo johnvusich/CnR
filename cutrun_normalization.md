@@ -25,7 +25,7 @@ $$\text{Normalized coverage} = (\text{Target genome coverage}) \times S$$
 This method normalizes by the total number of mapped reads in each sample, assuming that the total amount of sequencing obtained is proportional to the amount of material in each sample.
 
 **Scaling factor:**
-$$S = C / (\text{Total mapped reads})$$
+$$\text{S} = \frac{\text{C}}{\text{Fragments mapped to E. coli genome}}$$
 
 **Normalized coverage:**
 $$\text{Normalized coverage} = (\text{Raw coverage}) \times S$$
