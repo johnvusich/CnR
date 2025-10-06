@@ -5,7 +5,7 @@
 Exogenous DNA (i.e. E. coli or Drosophila) is added to the stop buffer of the CUT&RUN or CUT&Tag reaction. Spike-in reads are mapped separately, for example, to the E.coli genome, in addition to reads mapped to the target/primary genome (i.e. human, mouse, etc.). The assumption is that the ratio of reads mapped to the target genome compared to the spike-in genome is the same across all samples that were processed in the same batch and using the same number of cells. 
 
 Using a constant C, we define the **scaling factor** as:
-$$S = C / (\text{Fragments mapped to E. coli genome})$$
+$$\text{S} = \frac{\text{C}}{\text{Fragments mapped to E. coli genome}}$$
 
 Then, we apply the scaling factor to normalize the target reads:
 $$\text{Normalized coverage} = (\text{Target genome coverage}) \times S$$
@@ -25,7 +25,7 @@ $$\text{Normalized coverage} = (\text{Target genome coverage}) \times S$$
 This method normalizes by the total number of mapped reads in each sample, assuming that the total amount of sequencing obtained is proportional to the amount of material in each sample.
 
 **Scaling factor:**
-$$\text{S} = \frac{\text{C}}{\text{Fragments mapped to E. coli genome}}$$
+$$\text{S} = \frac{\text{C}}{\text{Total mapped reads}}$$
 
 **Normalized coverage:**
 $$\text{Normalized coverage} = (\text{Raw coverage}) \times S$$
