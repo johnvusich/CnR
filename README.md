@@ -115,6 +115,9 @@ https://github.com/FredHutch/SEACR
 ### MACS3 Peak Calling Website:
 https://macs3-project.github.io/MACS/
 
+### Useful paper for Tn5 chemistry behind CUT&Tag:
+Simone Picelli et al. Tn5 transposase and tagmentation procedures for massively scaled sequencing projects. _Genome Research_ (2014). https://doi.org/10.1101/gr.177881.114
+
 ### Other computational tools for CUT&RUN, CUT&Tag, and CUTAC:
 - [nf-core/cutandrun](https://nf-co.re/cutandrun/3.2.2/)
 - [TrimGalore](https://github.com/FelixKrueger/TrimGalore)
